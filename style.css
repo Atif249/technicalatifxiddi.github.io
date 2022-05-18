@@ -1,0 +1,532 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    height: 90vh;
+    width: 100%;
+    background-color:#f1f1f1;
+}
+.navbar{
+    
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar a:first-child{
+    color: #4458dc;
+}
+.head{
+    margin-left: 1%;
+    height: 5vh;
+    width: 4%;
+}
+.atif{
+    margin-left: -29%;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: cursive;
+    
+}
+#sp{
+    margin: 0%;
+    color: red;
+}
+.head img{
+    
+    height: 100%;
+    width: 100%;
+    
+}
+.a{
+    height: 8vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.a a{
+    box-shadow: #4458dc;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: cursive;
+    color: black;
+    position: relative;
+    
+}
+.a a::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    top: 110%;
+    left: 0%;
+    border-bottom: 2px solid #4458dc;
+    transition: 0.5s all linear;
+}
+.a a:hover::before{
+    width: 100%;
+}
+/* ........................................................................................... */
+.first{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    height: 70vh;
+    width: 50%;
+}
+.lefta{
+    height: 40vh;
+    width: 71%;
+
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 50%;
+
+}
+/* .right img{
+    height: 60%;
+    width: 60%;
+} */
+.left h3{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: cursive;
+}
+.left h1{
+    font-size: 31px;
+    text-transform: uppercase;
+    
+}
+.left p{
+    text-transform: capitalize;
+}
+.pic{
+    margin-top: -21%;
+    height: 60%;
+    width: 60%;
+}
+.pic img{
+    height: 100%;
+    width: 100%;
+}
+.btn{background-color: #4458dc;
+    height: 30px;
+    width: 75px;
+    border: none;
+    
+}
+.btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.btn a:hover{
+    box-shadow: 0 16px 25px 0 #4458dc;
+}
+/* ................................................... */
+.sec{margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    width: 100%;
+
+}
+.picone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 50%;
+}
+.b{
+    height: 50vh;
+    width: 50%;
+}
+.b img{
+    box-shadow: -0.5rem -0.5rem 0 0 #4458dc;
+    
+    height: 100%;
+    width: 100%;
+}
+.data{
+    height: 50vh;
+    width: 50%;
+}
+.c{
+    height: 50vh;
+    width: 50%;
+}
+.c p{
+    
+    text-transform: capitalize;
+}
+.c h1{
+    font-size: 34px;
+    text-transform: uppercase;
+    position: relative;
+}
+.c h1::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 56%;
+    top: 109%;
+    left: 3%;
+    border-bottom: 4px solid #4458dc;
+
+}
+.c h1::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 4%;
+    top: 94%;
+    left: 0%;
+    border-bottom: 14px solid #4458dc;
+    
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 55%;
+    width: 129%;
+}
+.d{
+    
+    height: 50px;
+    width: 100%;
+}
+
+
+
+.aaa{
+    position: relative;
+}
+.aaa::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    left: 17%;
+    top: -100%;
+    border-bottom: 4px solid rgb(164 164 164 / 54%)
+}
+
+.main h2{
+    
+    font-family: cursive;
+    text-transform: capitalize;
+}
+.bbb::before{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 80%;
+    left: 17%;
+    top: -100%;
+    border-bottom: 4px solid #0022ff
+    
+}
+.ccc::before{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 90%;
+    left: 17%;
+    top: -100%;
+    border-bottom: 4px solid #0022ff
+    
+}
+.ddd::before{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 60%;
+    left: 17%;
+    top: -100%;
+    border-bottom: 4px solid #0022ff
+    
+}
+.eee::before{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 85%;
+    left: 17%;
+    top: -100%;
+    border-bottom: 4px solid #0022ff
+    
+}
+.one::after{
+    content: "";
+    position: absolute;
+    height: 9px;
+    width: 30px;
+    left: 2%;
+    top: 49%;
+    border-bottom: 3px solid #0022ff;
+    transition: all 0.5s linear;
+}
+
+.one span{
+    position: relative;
+    
+}
+span{
+    color: rgb(0, 0, 0);
+    margin-left: 94%;
+    position: relative;
+    
+    
+}
+span:hover::after{
+    width: 0px;
+}
+
+.two::after{
+    content: "";
+    position: absolute;
+    height: 9px;
+    width: 30px;
+    left: 2%;
+    top: 49%;
+    border-bottom: 3px solid #0022ff;
+    transition: all 0.5s linear;
+}
+.two{
+    margin-left: 103%;
+}
+.threee::after{
+    content: "";
+    position: absolute;
+    height: 9px;
+    width: 30px;
+    left: 2%;
+    top: 49%;
+    border-bottom: 3px solid #0022ff;
+    transition: all 0.5s linear;
+}
+.threee{
+    margin-left: 74%;
+}
+.four{
+    margin-left: 98%;
+}
+
+.four::after{
+    content: "";
+    position: absolute;
+    height: 9px;
+    width: 30px;
+    left: 2%;
+    top: 49%;
+    border-bottom: 3px solid #0022ff;
+    transition: all 0.5s linear;
+}
+/* ........................................................................ */
+.forth{
+    background-color: #4458dc;
+    height: 15vh;
+    width: 100%;
+}
+.der{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.der h1{
+    font-family: cursive;
+    color: white;
+}
+/* ............................................................................ */
+
+.service{
+    height: 13vh;
+    width: 100%;
+
+    
+}
+.ser{
+    height: 13vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ser h1{
+    font-size: 28px;
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+.ser h1::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 83%;
+    top: 115%;
+    left: 5%;
+    border-bottom: 4px solid #4458dc;
+}
+.ser h1::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 5%;
+    top: 93%;
+    left: 0%;
+    border-bottom: 13px solid #4458dc;
+    
+}
+
+
+/* ..................................................................... */
+
+.onee{
+    height: 32vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firr {
+    box-shadow: white;
+
+    margin-left: 11px;
+    
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.5s linear;
+    
+    border: none;
+    
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    height: 30vh;
+    width: 30%;
+    
+}
+.pics {
+    height: 138px;
+    width: 158px;
+}
+.firr h3{
+    text-transform: capitalize;
+
+}
+.pics img{
+    height: 100%;
+    width: 100%;
+}
+.para{
+    height: 108px;
+    width: 360px;
+}
+.firr p{
+    height: 100%;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 13px;
+    
+}
+
+.firr:hover{
+    transform: translateY(-3rem);
+}
+/* ................................................................... */
+
+.bioo{
+    height: 10vh;
+    width: 100%;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.bioo h1{
+    position: relative;
+}
+
+.bioo h1::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 3.5%;
+    top: 93%;
+    left: 0%;
+    border-bottom: 19px solid #4458dc;
+}
+.bioo h1::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 81%;
+    top: 99%;
+    left: 0%;
+    border-bottom: 9px solid #4458dc;
+}
+/* ................................................................. */
+.form{
+    height: 30vh;
+    width: 100%;
+}
+.heading {
+    
+    height: 3vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 36%;
+}
+.heading h2{margin-top: -2%;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+
+.inp {
+    height: 7vh;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+.in{
+    height: 3vh;
+    width: 26vh;
+}
+
+
